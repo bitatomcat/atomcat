@@ -12,8 +12,10 @@ A Go program with deep reinforcement learning and MCTS. It's a c++ implementatio
 ## Dependency
 Atomcat needs tensorflow c++ shared library to execute network inference.<br>
 Download libtensorflow_all.tar.gz, decompress, copy to directory /usr/lib
+```
 $ sudo cp libtensorflow_all.so /usr/lib/
 $ sudo ldconfig
+```
 <br>
 <br>
 
