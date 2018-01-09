@@ -20,7 +20,7 @@ $ sudo ldconfig
 
 
 ## Run
-Ubuntu 16.04
+Ubuntu 16.04 tested, currently windows platform is not supported.
 ```
 1. start atomcat
 $ ./atomcat
