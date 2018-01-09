@@ -18,6 +18,9 @@ $ sudo ldconfig
 ```
 <br>
 
+## Hardware requirement
+A nvidia GPU supports CUDA
+<br>
 
 ## Run
 Ubuntu 16.04 tested, currently windows platform is not supported.
