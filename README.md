@@ -55,6 +55,8 @@ selfplay
 <br>
 
 ## GUI
-Sabaki is recommended, download Sabaki from http://sabaki.yichuanshen.de/
-$ cd ~/Sabaki/dist/linux-unpacked
+Sabaki is recommended, download Sabaki from http://sabaki.yichuanshen.de/ to ${SABAKI_HOME}
+```
+$ cd ${SABAKI_HOME}/Sabaki/dist/linux-unpacked
 $ ./sabaki
+```
