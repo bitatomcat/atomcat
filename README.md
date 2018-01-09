@@ -9,7 +9,7 @@ A Go program with deep reinforcement learning and MCTS. It's a c++ implementatio
 4. CUDA support
 
 
-## run
+## Run
 ```
 1. start atomcat
 $ ./atomcat
