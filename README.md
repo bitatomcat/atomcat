@@ -7,10 +7,11 @@ A Go program with deep reinforcement learning and MCTS. It's a c++ implementatio
 2. Multi-thread search based on cpu cores
 3. Deep neural network batch evaluation for board positions
 4. CUDA support
+<br>
 
 ## Dependency
 Atomcat needs tensorflow c++ shared library to execute network inference.
-
+<br>
 
 ## Run
 ```
