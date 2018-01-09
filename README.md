@@ -1,6 +1,6 @@
 # atomcat
 A Go program with deep reinforcement learning and MCTS. It's a c++ implementation of the alphago-zero paper.
-
+<br>
 
 ## Features
 1. Self Play
@@ -17,7 +17,7 @@ $ sudo cp libtensorflow_all.so /usr/lib/
 $ sudo ldconfig
 ```
 <br>
-<br>
+
 
 ## Run
 Ubuntu 16.04
