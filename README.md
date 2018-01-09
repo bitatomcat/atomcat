@@ -12,6 +12,7 @@ A Go program with deep reinforcement learning and MCTS. It's a c++ implementatio
 ## Dependency
 Atomcat needs tensorflow c++ shared library to execute network inference.
 <br>
+<br>
 
 ## Run
 ```
