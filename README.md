@@ -7,3 +7,15 @@ A Go program with deep reinforcement learning and MCTS. It's a c++ implementatio
 2. Multi-thread search based on cpu cores
 3. Deep neural network batch evaluation for board positions
 4. CUDA support
+
+
+## run
+```
+1. start atomcat
+$ ./atomcat
+
+2. selfplay command
+$ self-play
+or 
+$ selfplay
+```
