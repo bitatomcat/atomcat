@@ -10,17 +10,44 @@ A Go program with deep reinforcement learning and MCTS. It's a c++ implementatio
 <br>
 
 ## Dependency
-Atomcat needs tensorflow c++ shared library to execute network inference.
+Atomcat needs tensorflow c++ shared library to execute network inference.<br>
+Download libtensorflow_all.tar.gz, decompress, copy to directory /usr/lib
+$ sudo cp libtensorflow_all.so /usr/lib/
 <br>
 <br>
 
 ## Run
+Ubuntu 16.04
 ```
 1. start atomcat
 $ ./atomcat
 
 2. selfplay command
-$ self-play
-or 
-$ selfplay
+send self-play or selfplay command
+
+
+
+   A B C D E F G H J K L M N O P Q R S T 
+19 . . . . . . . . . . . . . . . . . . . 19
+18 . . . . . . . . . . . . . . . . . . . 18
+17 . . . . . . . . . . . . . . . . . . . 17
+16 . . . + . . . . . + . . . . . + . . . 16
+15 . . . . . . . . . . . . . . . . . . . 15
+14 . . . . . . . . . . . . . . . . . . . 14
+13 . . . . . . . . . . . . . . . . . . . 13
+12 . . . . . . . . . . . . . . . . . . . 12
+11 . . . . . . . . . . . . . . . . . . . 11
+10 . . . + . . . . . + . . . . . + . . . 10
+ 9 . . . . . . . . . . . . . . . . . . . 9
+ 8 . . . . . . . . . . . . . . . . . . . 8
+ 7 . . . . . . . . . . . . . . . . . . . 7
+ 6 . . . . . . . . . . . . . . . . . . . 6
+ 5 . . . . . . . . . . . . . . . . . . . 5
+ 4 . . . + . . . . . + . . . . . + . . . 4
+ 3 . . . . . . . . . . . . . . . . . . . 3
+ 2 . . . . . . . . . . . . . . . . . . . 2   
+ 1 . . . . . . . . . . . . . . . . . . . 1   Black to play
+   A B C D E F G H J K L M N O P Q R S T 
+
+selfplay
 ```
