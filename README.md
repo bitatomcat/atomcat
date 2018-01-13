@@ -19,7 +19,7 @@ $ sudo ldconfig
 <br>
 
 ## Hardware requirement
-A nvidia GPU supports CUDA
+A nvidia GPU card supports CUDA
 <br>
 
 ## Run
